@@ -1,0 +1,11 @@
+prefix=C:/Users/Mazur/source/Examples/gpbExample/install
+exec_prefix=C:/Users/Mazur/source/Examples/gpbExample/install
+libdir=C:/Users/Mazur/source/Examples/gpbExample/install/lib
+includedir=C:/Users/Mazur/source/Examples/gpbExample/install/include
+
+Name: Protocol Buffers
+Description: Google's Data Interchange Format
+Version: 3.10.0.0
+Libs: -L${libdir} -lprotobuf 
+Cflags: -I${includedir} 
+Conflicts: protobuf-lite
