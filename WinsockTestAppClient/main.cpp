@@ -40,7 +40,7 @@ void main()
 	sockaddr_in server;
 	server.sin_family = AF_INET; 
 	server.sin_port = htons(54000);
-	inet_pton(AF_INET, "10.9.105.37", &server.sin_addr);
+	inet_pton(AF_INET, HOME, &server.sin_addr);
 
 	SOCKET out = socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP);
 
